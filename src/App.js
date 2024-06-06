@@ -104,8 +104,6 @@ function passwordGenerator(checked, length) {
     const character = String.fromCharCode(code);
     characterArray = characterArray.concat(character);
   }
-
-  console.log(characterArray, mandatoryArray);
   return characterArray;
 }
 
